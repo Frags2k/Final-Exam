@@ -1,0 +1,98 @@
+<!--Mark Andrew John T. Ocampo-->
+<!DOCTYPE html>
+<html>
+<style>
+body{
+  margin: 0;
+  padding: 0;
+  background: url(neon2.webp) no-repeat;
+  background-size:  100%;
+}
+.box{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 3%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1{
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-height: 30;
+}
+.box h2{
+  font-size: 20px;
+  letter-spacing: 4px;
+  font-height: 50;
+}
+
+.box h3{
+  align: center;
+  display: inline-block;
+  margin: 10px;
+  list-style: none;
+}
+.box h3 a{
+  align: center;
+  color: cyan;
+  text-decoration: none;
+  font-size: 30px;
+  transition: all ease-in-out 250ms;
+}
+.box h3 a:hover{
+  color: #b9b9b9;
+}
+.box p{
+  text-align: justify;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 10px;
+  list-style: none;
+}
+.box li a{
+  align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #b9b9b9;
+}
+</style>
+
+  <head>
+    <title>Personal Website</title>
+  </head>
+  <body>
+<div class="box">
+<h1>Personal Website</h1>
+  <img src="me.png" alt="" class="box-img">
+  <h2>Mark Andrew John T. Ocampo</h2>
+
+<p>Hi!, my name is Andrew welcome to my personal webpage!, 19 years old, lived in 287 Alfonso Isidro St. Pasay City, 1st year college from Arellano University Jose Abad Santos Campus taking Bachelor of Science in Information Technology BSIT.</p>
+<h3><a href="Profile.html" >Profile</a> &emsp;
+<a href="Portfolio.html" >Portfolio</a> &emsp;
+<a href="Gallery.html" >Gallery</a></h3> 
+<ul>
+<li><a href="https://www.facebook.com/Frags2k"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+<li><a href="https://www.youtube.com/channel/UCosDCafJBmNM36Dl8yl-ekA"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+<li><a href="https://myaccount.google.com/profile"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+</ul>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,96 @@
+<!--Mark Andrew John T. Ocampo-->
+<!DOCTYPE HTML>
+<html>
+<body>
+<center>
+<title>Gallery</title>
+<style>
+body{
+  margin: 0;
+  padding: 0;
+  background: url(neon2.webp) repeat;
+  background-size: 100%;
+  font-family: 'Century Gothic',sans-serif;
+}
+table, th, td {
+	border:1px ;
+    font-size: 30;
+	}
+.h1{
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-height: 50;
+ }
+.h2{
+  align: center;
+  display: inline-block;
+  margin: 10px;
+  list-style: none;
+}
+.h2 a{
+  align: center;
+  color: cyan;
+  text-decoration: none;
+  font-size: 50px;
+}
+.h2 a:hover{
+  color: #b9b9b9;
+ }
+ 
+</style>
+<div class="h1">
+<div class="h2">
+<div class="h2 a">
+<table border cellpadding = 10>
+
+<tr>
+	<h1><th colspan="2" >ME</th></h1>
+	
+	
+</tr>
+<tr>	
+	<td><img src="gtame.gif" width="500" height="350"></td>
+	<td><img src="skt.jpg" width="500" height="350"></td>
+
+</tr>
+<tr>
+	<h1><th colspan="2" >Family</th></h1>
+	
+	
+</tr>
+<tr>	
+	<td><img src="fam1.jpg" width="500" height="350"></td>
+	<td><img src="fam2.jpg" width="500" height="350"></td>
+
+</tr>
+<tr>
+	<h1><th colspan="2" >Friends</th></h1>
+	
+	
+</tr>
+<tr>	
+	<td><img src="cl1.jpg" width="500" height="350"></td>
+	<td><img src="cl2.jpg" width="500" height="350"></td>
+
+</tr>
+<tr>
+	<h1><th colspan="2" >Classmates</th></h1>
+	
+	
+</tr>
+<tr>	
+	<td><img src="cm2.jpg" width="500" height="350"></td>
+	<td><img src="cm1.png" width="500" height="350"></td>
+
+</tr>
+<tr>
+	<h1><th colspan="2"><h2><a href="PersonalWebsite.html" >Back To Home Page?</a></h2><br></br></th></h1>
+	
+	
+</tr>
+</center>
+<br></br>
+
+</body>
+</html>
