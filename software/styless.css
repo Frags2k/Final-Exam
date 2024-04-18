@@ -1,0 +1,50 @@
+body {
+      font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+	margin: 0;
+  padding: 0;
+  background: url(au.jpg) repeat;
+  background-size: 100%;
+  font-family: 'Century Gothic',sans-serif;
+}
+
+.container {
+    width: 50%; /* Set container width */
+    margin: 50px auto; /* Center the container */
+    background-color: #fff; /* White background */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 0 0 0 transparent; /* Invisible box shadow */
+}
+
+.h1 {
+    text-align: center; /* Center align the text */
+    font-size: 35px; /* Larger font size */
+    margin-bottom: 5px; /* Add space below the heading */
+}
+
+table {
+    width: 100%; /* Set table width to 100% */
+    border-collapse: collapse; /* Collapse table borders */
+}
+
+th, td {
+    padding: 3px; /* Add padding to table cells */
+    text-align: center; /* Center align text in cells */
+}
+
+th {
+    background-color: #fff; /* white header background */
+    color: black; /* Black text color */
+}
+
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Blue link color */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}

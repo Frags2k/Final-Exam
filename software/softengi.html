@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venue and Facility, Reservation System for OSA JAS Campus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<center>
+<tr>	
+	<td><img src="aulogo.png" width="200" height="200"></td>
+	<th colspan="2" >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+					&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</th> 
+	<td><img src="osa.png" width="200" height="200"></td>
+</tr>
+    <div class="container">
+        <h1>Reservation Form</h1>
+        <form action="reservation.php" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+			<div class="form-group">
+                <label for="reservation">Reservation:</label>
+				
+                <select id="reservation" name="reservation">
+                    <option value="car_parking">Car Parking</option>
+                    <option value="basketball_court">Basketball Court</option>
+                    <option value="quadrangle">Quadrangle</option>
+                    <option value="annex_building">Annex Building</option>
+                    <option value="AVR">AVR</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+            <div class="form-group">
+                  <button type="submit" class="submit-button">Submit Reservation</button>
+			</div>
+			</form>
+			<a href="Software Engineering.html" class="back-button">Back</a>
+			
+			
+		
+			 
+			
+    </div>
+	</center>
+</body>
+</html>
